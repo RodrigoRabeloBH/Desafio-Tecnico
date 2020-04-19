@@ -1,0 +1,11 @@
+C:\Dev\TesteTecnico\Data\bin\Debug\Data.dll
+C:\Dev\TesteTecnico\Data\bin\Debug\Data.pdb
+C:\Dev\TesteTecnico\Data\bin\Debug\Business.dll
+C:\Dev\TesteTecnico\Data\bin\Debug\Domain.dll
+C:\Dev\TesteTecnico\Data\bin\Debug\Business.pdb
+C:\Dev\TesteTecnico\Data\bin\Debug\Domain.pdb
+C:\Dev\TesteTecnico\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Dev\TesteTecnico\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Dev\TesteTecnico\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Dev\TesteTecnico\Data\obj\Debug\Data.dll
+C:\Dev\TesteTecnico\Data\obj\Debug\Data.pdb

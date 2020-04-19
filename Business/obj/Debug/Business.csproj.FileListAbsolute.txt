@@ -1,0 +1,9 @@
+C:\Dev\TesteTecnico\Business\bin\Debug\Business.dll
+C:\Dev\TesteTecnico\Business\bin\Debug\Business.pdb
+C:\Dev\TesteTecnico\Business\bin\Debug\Domain.dll
+C:\Dev\TesteTecnico\Business\bin\Debug\Domain.pdb
+C:\Dev\TesteTecnico\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Dev\TesteTecnico\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Dev\TesteTecnico\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Dev\TesteTecnico\Business\obj\Debug\Business.dll
+C:\Dev\TesteTecnico\Business\obj\Debug\Business.pdb

@@ -1,0 +1,10 @@
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\TesteTecnico.exe.config
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\TesteTecnico.exe
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\TesteTecnico.pdb
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.csprojAssemblyReference.cache
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.Form1.resources
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.Properties.Resources.resources
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.csproj.GenerateResource.cache
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.csproj.CoreCompileInputs.cache
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.exe
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.pdb

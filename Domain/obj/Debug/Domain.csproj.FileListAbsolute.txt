@@ -1,0 +1,6 @@
+C:\Dev\TesteTecnico\Domain\bin\Debug\Domain.dll
+C:\Dev\TesteTecnico\Domain\bin\Debug\Domain.pdb
+C:\Dev\TesteTecnico\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Dev\TesteTecnico\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Dev\TesteTecnico\Domain\obj\Debug\Domain.dll
+C:\Dev\TesteTecnico\Domain\obj\Debug\Domain.pdb
