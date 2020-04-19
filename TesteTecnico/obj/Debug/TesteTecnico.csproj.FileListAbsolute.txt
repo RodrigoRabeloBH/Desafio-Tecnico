@@ -8,3 +8,12 @@ C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.csproj.GenerateResource.
 C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.csproj.CoreCompileInputs.cache
 C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.exe
 C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.pdb
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.CreateProductForm.resources
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\Data.dll
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\Domain.dll
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\Business.dll
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\Data.pdb
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\Domain.pdb
+C:\Dev\TesteTecnico\TesteTecnico\bin\Debug\Business.pdb
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.csproj.CopyComplete
+C:\Dev\TesteTecnico\TesteTecnico\obj\Debug\TesteTecnico.ListProductsForm.resources

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TesteTecnico
@@ -15,6 +8,18 @@ namespace TesteTecnico
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void adicionarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var createdForm = new CreateProductForm();
+            createdForm.Show();
+        }
+
+        private void listarTodosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var listForm = new ListProductsForm();
+            listForm.Show();
         }
     }
 }
