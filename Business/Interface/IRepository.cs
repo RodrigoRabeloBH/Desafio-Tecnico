@@ -8,7 +8,7 @@ namespace Business.Interface
         void Create(T entity);
         void Update(int id, T entity);
         void Delete(int id);
-        List<T> GetAll();        
+        List<T> GetAll();
         T GetById(int id);
     }
 }

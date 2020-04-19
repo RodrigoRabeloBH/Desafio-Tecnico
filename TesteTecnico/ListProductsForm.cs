@@ -6,7 +6,7 @@ namespace TesteTecnico
 {
     public partial class ListProductsForm : Form
     {
-        private ProductRepository _rep = new ProductRepository();
+        private readonly ProductRepository _rep = new ProductRepository();
         public ListProductsForm()
         {
             InitializeComponent();

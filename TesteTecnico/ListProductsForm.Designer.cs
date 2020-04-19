@@ -48,14 +48,14 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 68);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(628, 302);
+            this.dataGridView1.Size = new System.Drawing.Size(662, 302);
             this.dataGridView1.TabIndex = 1;
             // 
             // ListProductsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 372);
+            this.ClientSize = new System.Drawing.Size(686, 372);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;

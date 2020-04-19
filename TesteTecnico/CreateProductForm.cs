@@ -7,7 +7,7 @@ namespace TesteTecnico
 {
     public partial class CreateProductForm : Form
     {
-        private ProductRepository _rep = new ProductRepository();
+        private readonly ProductRepository _rep = new ProductRepository();
         public CreateProductForm()
         {
             InitializeComponent();
@@ -15,7 +15,16 @@ namespace TesteTecnico
 
         private void button1_Click(object sender, EventArgs e)
         {
-            InsertProdut();
+            if (textDescription.Text == "" || textName.Text == "" || textQuantity.Text == "" || textPrice.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos corretamente!");
+            }
+            else
+            {
+                InsertProdut();
+
+                MessageBox.Show("Produto registrado com sucesso!!!");
+            }
         }
 
         private void InsertProdut()
@@ -24,8 +33,8 @@ namespace TesteTecnico
             {
                 Description = textDescription.Text,
                 Name = textName.Text,
-                Price = decimal.Parse(textPrice.Text),
-                Quantity = decimal.Parse(textQuantity.Text),
+                Price = double.Parse(textPrice.Text),
+                Quantity = double.Parse(textQuantity.Text)
             };
             _rep.Create(product);
 
@@ -43,6 +52,11 @@ namespace TesteTecnico
         private void button2_Click(object sender, EventArgs e)
         {
             ClearField();
+        }
+
+        private void CreateProductForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

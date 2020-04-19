@@ -45,7 +45,7 @@
             this.produtoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(602, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(669, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -72,8 +72,9 @@
             // pesquisarToolStripMenuItem
             // 
             this.pesquisarToolStripMenuItem.Name = "pesquisarToolStripMenuItem";
-            this.pesquisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pesquisarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.pesquisarToolStripMenuItem.Text = "Pesquisar";
+            this.pesquisarToolStripMenuItem.Click += new System.EventHandler(this.pesquisarToolStripMenuItem_Click);
             // 
             // listarTodosToolStripMenuItem
             // 
@@ -85,20 +86,22 @@
             // editarToolStripMenuItem
             // 
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.editarToolStripMenuItem.Text = "Editar";
+            this.editarToolStripMenuItem.Click += new System.EventHandler(this.editarToolStripMenuItem_Click);
             // 
             // excluirToolStripMenuItem
             // 
             this.excluirToolStripMenuItem.Name = "excluirToolStripMenuItem";
-            this.excluirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.excluirToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.excluirToolStripMenuItem.Text = "Excluir";
+            this.excluirToolStripMenuItem.Click += new System.EventHandler(this.excluirToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(602, 345);
+            this.ClientSize = new System.Drawing.Size(669, 289);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;

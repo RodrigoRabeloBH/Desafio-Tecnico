@@ -10,7 +10,7 @@ namespace Data
 {
     public class ProductRepository : IProduct
     {
-        private static string _connectionString = @"Server=localhost\SQLEXPRESS;Database=STORE;Trusted_Connection=True";
+        private static readonly string _connectionString = @"Server=localhost\SQLEXPRESS;Database=STORE;Trusted_Connection=True";
         public void Create(Product product)
         {
             try
@@ -28,8 +28,8 @@ namespace Data
                         cmd.Parameters.Add("Name", SqlDbType.VarChar).Value = product.Name.ToUpper();
                         cmd.Parameters.Add("Description", SqlDbType.VarChar).Value = product.Description;
                         cmd.Parameters.Add("CreatedAt", SqlDbType.DateTime).Value = product.CreatedAt;
-                        cmd.Parameters.Add("Price", SqlDbType.Decimal).Value = product.Price;
-                        cmd.Parameters.Add("Quantity", SqlDbType.Decimal).Value = product.Quantity;
+                        cmd.Parameters.Add("Price", SqlDbType.Float).Value = product.Price;
+                        cmd.Parameters.Add("Quantity", SqlDbType.Float).Value = product.Quantity;
 
                         cmd.ExecuteReader();
                     }
@@ -93,9 +93,9 @@ namespace Data
                                 Id = int.Parse(reader["Id"].ToString()),
                                 CreatedAt = Convert.ToDateTime(Convert.IsDBNull(reader["CreatedAt"]) ? "" : reader["CreatedAt"].ToString()),
                                 Name = reader["Name"].ToString(),
-                                Quantity = int.Parse(reader["Quantity"].ToString()),
+                                Quantity = double.Parse(reader["Quantity"].ToString()),
                                 Description = reader["Description"].ToString(),
-                                Price = decimal.Parse(reader["Price"].ToString())
+                                Price = double.Parse(reader["Price"].ToString())
                             };
                             products.Add(product);
                         }
@@ -113,6 +113,7 @@ namespace Data
 
         public Product GetById(int id)
         {
+
             var product = GetAll().FirstOrDefault(p => p.Id == id);
 
             return product;
@@ -121,7 +122,7 @@ namespace Data
         public List<Product> GetByName(string name)
         {
             var products = GetAll()
-                .Where(p => p.Name == name.ToUpper())
+                .Where(p => p.Name.Contains(name.ToUpper()))
                 .ToList();
 
             return products;
@@ -144,8 +145,8 @@ namespace Data
                         cmd.Parameters.Add("Name", SqlDbType.VarChar).Value = product.Name.ToUpper();
                         cmd.Parameters.Add("Description", SqlDbType.VarChar).Value = product.Description;
                         cmd.Parameters.Add("CreatedAt", SqlDbType.DateTime).Value = product.CreatedAt;
-                        cmd.Parameters.Add("Price", SqlDbType.Decimal).Value = product.Price;
-                        cmd.Parameters.Add("Quantity", SqlDbType.Decimal).Value = product.Quantity;
+                        cmd.Parameters.Add("Price", SqlDbType.Float).Value = product.Price;
+                        cmd.Parameters.Add("Quantity", SqlDbType.Float).Value = product.Quantity;
                         cmd.Parameters.Add("Id", SqlDbType.Int).Value = id;
 
                         cmd.ExecuteReader();
