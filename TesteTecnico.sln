@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{66123558-3C73-4DB0-8CC4-035867057C44}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Install UI", "Install UI\Install UI.vdproj", "{EFC97C95-3C1F-40DF-8AE0-CA84DE7E1E85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{66123558-3C73-4DB0-8CC4-035867057C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66123558-3C73-4DB0-8CC4-035867057C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66123558-3C73-4DB0-8CC4-035867057C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC97C95-3C1F-40DF-8AE0-CA84DE7E1E85}.Debug|Any CPU.ActiveCfg = Debug
+		{EFC97C95-3C1F-40DF-8AE0-CA84DE7E1E85}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
