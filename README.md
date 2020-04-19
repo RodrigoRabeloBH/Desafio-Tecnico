@@ -1,15 +1,14 @@
 # Desafio-Tecnico
 
-Andes de executar a aplicação se assegure de executar o script abaixo:
+## Andes de executar a aplicação se assegure de executar o script abaixo:
+...
+ /* CRIA O BANCO DE DADOS */
 
-/* CRIA O BANCO DE DADOS */
-
-CREATE DATABASE STORE
-GO
-
-/* SELECIONA O BANCO */
-USE STORE
-GO
+ CREATE DATABASE STORE
+ GO
+ /* SELECIONA O BANCO */
+ USE STORE
+ GO
 
 /* CRIA A TABELA*/
 CREATE TABLE PRODUCT(
@@ -21,3 +20,4 @@ Price Float NOT NULL,
 Quantity Float NOT NULL,
 )
 GO
+...
