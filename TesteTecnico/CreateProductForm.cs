@@ -21,9 +21,20 @@ namespace TesteTecnico
             }
             else
             {
-                InsertProdut();
+                double eh_numero = 0;
 
-                MessageBox.Show("Produto registrado com sucesso!!!");
+                if (!(double.TryParse(textPrice.Text.ToString(), out eh_numero)) || !(double.TryParse(textQuantity.Text.ToString(), out eh_numero)))
+                {
+                    MessageBox.Show("Favor Digitar um Nº: apenas números são aceitos", "ERRO", MessageBoxButtons.OK);
+                    ClearField();
+                }
+                else
+                {
+                    InsertProdut();
+
+                    MessageBox.Show("Produto registrado com sucesso!!!");
+                }
+
             }
         }
 
